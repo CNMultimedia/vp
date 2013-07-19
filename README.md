@@ -13,13 +13,13 @@ Here is what you need to know about vp
 		disableController:Boolean = false);
 	}}}
 
-`teaserMode` is an optional parameter, let's say you need to create an expanding banner with a looping video in the collapsed state then you would need it to have no sound and no controller. TADA!
+`teaserMode` is a shortcut to play the video without sound and controller.
 
 `autoMute` will load the video on mute.
 
-`autoPlay` will play the video on load
+`autoPlay` will play the video on load.
 
-`autoHideBar` will hide the control bar on load
+`autoHideBar` will hide the control bar on load.
 
 ## Events
 
