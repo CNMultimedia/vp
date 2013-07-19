@@ -1,0 +1,5 @@
+log:
+1.7.0 - added hotspot
+1.7.1 - update timing for hotspot, in milliseconds.
+1.7.2 - added ctrlmc.visible call to allOn, for a better controller view experience.
+1.7.8 - added totalTime parameter in callback.

@@ -1,0 +1,13 @@
+new VP(size:String, VP_videoPath:String, disableFS:Boolean = false, teaserMode:Boolean = false, autoMute:Boolean = false, autoPlay:Boolean = true, autoHideBar:Boolean = false)
+
+size: video dimensions
+VP_videopath: video path, rtmp or http
+disableFS: remove Fullscreen button
+teaserMode: teaser mode
+autoMute: mute the video on start
+autoPlay: plays the video on start
+autoHideBar: hide the control bar on start
+
+added new methods:
+function loadNewVideo(s:String):void loads a new video
+function set_ypos(n:Number):void reposition the control bar on the Y-axis.
